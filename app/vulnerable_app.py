@@ -30,3 +30,4 @@ def get_user_v2(user_id):
     query = "SELECT * FROM users WHERE id = " + str(user_id)
     cursor.execute(query)
     return cursor.fetchone()
+    # running tests
